@@ -1,0 +1,65 @@
+@media screen and (max-width: 2560px){
+	h1{
+		font-size: 40px;
+	}
+	.img{
+		width:25%;
+		float: left;
+
+	}
+	.table{
+		font-size: 30px;
+		float:left;
+	}
+}
+@media screen and (max-device-width: 1080px){
+	h1{
+		text-align: center;
+		font-size: 45px;
+	}
+	h2{
+		text-align: center;
+	}
+	p{
+		font-size: 40px;
+	}
+	a{
+		font-size: 45px;
+	}
+	.img{
+		float: none;
+		width:25%;
+		margin: auto;
+	}
+	.table{
+		font-size: 40px;
+		float:none;
+		text-align: center;
+		list-style-position: inside;
+	}
+}
+@media screen and (max-device-width: 450px){
+	h1{
+		text-align: center;
+		font-size: 35px;
+	}
+	h2{
+		text-align: center;
+	}
+	.img{
+		float: none;
+		width:20%;
+		margin: auto;
+		}
+	.table{
+		float:none;
+		text-align: center;
+		list-style-position: inside;
+	}
+	p{
+		font-size: 25px;
+	}
+	a{
+		font-size: 25px;
+	}
+}
